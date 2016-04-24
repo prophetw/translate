@@ -18,7 +18,7 @@ toLang = 'zh'
 salt = random.randint(32768, 65536)
 
 sign = appid+q+str(salt)+secretKey
-print sign
+# print sign
 m1 = md5.new()
 m1.update(sign)
 sign = m1.hexdigest()
@@ -30,9 +30,9 @@ try:
  
     #response是HTTPResponse对象
     response = httpClient.getresponse()
-    print response.read()
-except Exception, e:
-    print e
+    # print response.read()
+# except Exception, e:
+    # print e
 finally:
     if httpClient:
         httpClient.close()
