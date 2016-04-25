@@ -24,8 +24,8 @@ __author__ = 'wang wei'
 
 # 其实就是 玩 一个翻译的api
 # 下面是 百度翻译的api 随便申请下就可以得到
-# APP ID: 20160423000019433
-# 密钥: 7NrX3vsNbtNxnbK8STfX
+# APP ID: 自己申请
+# 密钥: 自己申请
 #   http://api.fanyi.baidu.com/api/trans/product/apidoc
 # request url   http://api.fanyi.baidu.com/api/trans/vip/translate
 '''
