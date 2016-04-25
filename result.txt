@@ -2,7 +2,6 @@
 "我是一个逗比"  :  "I'm a funny ratio"
 "我真的受不了你了"  :  "I really can't stand you."
 "我喜欢你"  :  "I like you"
-"我最爱的是我自己的吊"  :  "I love my own hanging"
 "哈哈"  :  "ha-ha"
 "真的是傻逼一个"  :  "Is really an idiot"
 "我真的真的好傻"  :  "I really really stupid"
