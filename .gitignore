@@ -1,0 +1,5 @@
+dump.txt
+emailAndPhoneRegExp.py
+firstPython.py
+*.pyc
+./mysite/*.pyc
