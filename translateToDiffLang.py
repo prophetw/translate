@@ -68,8 +68,8 @@ result=urllib.parse.quote(qq,safe='')
 # print(result)   %E4%B8%AD%E5%9B%BD
 
 # 不会变得参数
-appid = '20160423000019433'
-secretKey = '7NrX3vsNbtNxnbK8STfX'
+appid = '自己申请'
+secretKey = '自己申请'
 requestUrl='http://api.fanyi.baidu.com/api/trans/vip/translate'
 def pureQueryStr(queryStrings):
     # 去掉空格 去掉 换行 等分隔符
