@@ -103,9 +103,9 @@ def handleTranslate(result,fileToWriteTo):
     translateResult='"'+result['trans_result'][0]['src']+'"  :  "'+result['trans_result'][0]['dst']+'"'+'\n'
     fileToWriteTo.write(translateResult)
     # return result
-f=open('demoWaitToTrans.txt','r')
+f=open('waitToTrans.txt','r')
 x=f.readline()
-resultPath=open('demoTranslateResult.txt','a')
+resultPath=open('translateResult.txt','a')
 # print(f.readline())
 while x:
     print(x)
