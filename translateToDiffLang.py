@@ -67,10 +67,14 @@ qq='中国'
 result=urllib.parse.quote(qq,safe='')
 # print(result)   %E4%B8%AD%E5%9B%BD
 
-# 不会变得参数
-appid = '自己申请'
+
+#////////////////////// real code start from now
+
+# the const argument
+appid = 'register yourself from  http://api.fanyi.baidu.com/api/trans/product/apidoc'
 secretKey = '自己申请'
 requestUrl='http://api.fanyi.baidu.com/api/trans/vip/translate'
+# pureQueryStr this func is to format query string not used in this project 
 def pureQueryStr(queryStrings):
     # 去掉空格 去掉 换行 等分隔符
     return str
@@ -99,9 +103,9 @@ def handleTranslate(result,fileToWriteTo):
     translateResult='"'+result['trans_result'][0]['src']+'"  :  "'+result['trans_result'][0]['dst']+'"'+'\n'
     fileToWriteTo.write(translateResult)
     # return result
-f=open('1.txt','r')
+f=open('demoWaitToTrans.txt','r')
 x=f.readline()
-resultPath=open('result.txt','a')
+resultPath=open('demoTranslateResult.txt','a')
 # print(f.readline())
 while x:
     print(x)
