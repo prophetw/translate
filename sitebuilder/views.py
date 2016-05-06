@@ -5,6 +5,12 @@ from django.shortcuts import render
 from django.template import Template
 from django.utils._os import safe_join
 
+# @register.filter
+def pdb(element):
+    import pdb
+    pdb.set_trace()
+    return element
+
 def get_page_or_404(name):
     """Return page content as a Django template or raise 404 error."""
     try:
@@ -22,7 +28,9 @@ def get_page_or_404(name):
 
 def page(request, slug='index'):
     """Render the requested page if found."""
+
     file_name = '{}.html'.format(slug)
+    pdb(file_name)
     page = get_page_or_404(file_name)
     context = {
                 'slug': slug,
