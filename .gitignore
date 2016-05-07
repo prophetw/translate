@@ -1,0 +1,10 @@
+dump.txt
+emailAndPhoneRegExp.py
+firstPython.py
+*.pyc
+mysite/*.pyc
+bower_components/bootstrap/*
+bower_components/jquery/*
+bower_components/*
+*.json
+bower_components/bootstrap
