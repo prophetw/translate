@@ -1,24 +1,28 @@
 # translate
-python baidu api translator
-python 3.5 
-osx 10.11 
-use baidu translate api 
-it is a translator can translate multiple words or sentence into diff language 
+    python baidu api translator
+    python 3.5 
+    osx 10.11 
+    use baidu translate api 
+    it is a translator can translate multiple words or sentence into diff language 
+# data wait to translate
+you may format your data like this by using regular expressions or replace
+--------
+    hello
+    your brother
+    cool thing
+    amazing
+translate result is like this
+-----
+    'hello' : '你好'
+    'your brother' : '你的哥哥'
+    'cool thing' : '酷'
+    'amazing' : '鹅妹z樱'
+# How to Use
+    git clone this project 
+    git clone 
 
-<h2>data wait to translate</h2>
-<h3>you may format your data like this by using regular expressions or replace</h3>
-<p>hello</p>
-<p>your brother</p>
-<p>cool thing</p>
-<p>amazing</p>
-<h2>translate result is like this </h2>
-<p>'hello' : '你好'</p>
-<p>'your brother' : '你的哥哥'</p>
-<p>'cool thing' : '酷'</p>
-<p>'amazing' : '鹅妹z樱'</p>
 
 <div>
-<h2>How to Use</h2>
 <h3>language arguments</h3>
 <table class="info-table">
 <tbody><tr>
