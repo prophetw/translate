@@ -20,8 +20,11 @@ translate result is like this
 # How to Use
     git clone this project 
     git clone 
-
-
+    http://api.fanyi.baidu.com/api/trans/product/index 注册 获取自己的 appid 和secretkey
+    python path/to/this/script waitForTransFileName result fromLan toLang appid secretkey
+    例如 你需要翻译的文件名为 waitForTrans.txt中文zh 翻译到 result.txt英文en 文件 
+    那就是
+    python c/Download/translateToDiffLang waitForTrans.txt result.txt zh en your_appid your_secretkey
 <div>
 <h3>language arguments</h3>
 <table class="info-table">
