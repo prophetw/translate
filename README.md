@@ -18,13 +18,20 @@ translate result is like this
     'cool thing' : '酷'
     'amazing' : '鹅妹z樱'
 # How to Use
+####1
+------
     git clone this project 
-    git clone 
-    http://api.fanyi.baidu.com/api/trans/product/index 注册 获取自己的 appid 和secretkey
-    python path/to/this/script waitForTransFileName result fromLan toLang appid secretkey
-    例如 你需要翻译的文件名为 waitForTrans.txt中文zh 翻译到 result.txt英文en 文件 
-    那就是
-    python c/Download/translateToDiffLang waitForTrans.txt result.txt zh en your_appid your_secretkey
+####2
+------
+    从http://api.fanyi.baidu.com/api/trans/product/index注册获取自己的appid和secretkey
+####3
+------
+        python path/to/this/script waitForTransFileName result fromLan toLang appid secretkey
+        waitForTrans.txt zh to result.txt en
+        you should write like this
+        python c/Download/translateToDiffLang waitForTrans.txt result.txt zh en your_appid your_secretkey
+
+
 <div>
 <h3>language arguments</h3>
 <table class="info-table">
